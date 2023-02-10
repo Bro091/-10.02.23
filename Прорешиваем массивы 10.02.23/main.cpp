@@ -61,7 +61,7 @@ int main() {
 	std::cout << "Средняя температура за месяц: " << (double)sum / size2 << "\n\n";*/
 
 	//Задача 3. Вхождение в диапазон
-	std::cout << "Задача 3\nВведите начало диапазона -> ";
+	/*std::cout << "Задача 3\nВведите начало диапазона -> ";
 	std::cin >> n; 
 	std::cout << "Введите конец диапазона -> ";
 	std::cin >> m;
@@ -77,8 +77,31 @@ int main() {
 		else 
 			std::cout << i + 1 << ". " << arr3[i] << '\n';
 	}
-	std::cout << std::endl;
+	std::cout << std::endl;*/
 
+
+	// Задача 4. Самостоятельная
+	std::cout << "Задача 1.\nИзначальный массив:\n";
+	const int size4 = 10;
+	int arr4[size4];
+	srand(time(NULL));
+	for (int i = 0; i < size4; i++) {
+		arr4[i] = rand() % (10 + 1); // [1..10]
+
+		std::cout << arr4[i] << '\t';
+for
+	}
+	std::cout << "\b.\n";
+
+	for (int i = 10; i < size4; i++) {
+
+		if (arr4[i] < arr4[i + 1])
+			std::cout << arr4[1] << "\n";
+		else
+			std::cout << ' ';
+
+
+	}
 	return 0;
 
 }
