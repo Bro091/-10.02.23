@@ -8,6 +8,8 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	int n, m, sum;
 
+	std::cout << "Hello World!\n\n";
+
 	//Задача 1. Сортировка половины массива
 	/*std::cout << "Задача 1.\nИзначальный массив:\n";
 	const int size1 = 10;
